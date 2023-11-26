@@ -3,8 +3,14 @@
 
 int main() {
     // Declaração de variáveis
-    int distancia, movimento = 0, numero_posicoes, experiencia = 0, vale_moedas = 0, fatorial = 0;
+    int distancia, movimento, numero_posicoes, experiencia, vale_moedas, fatorial;
     
+    // Inicialização de variáveis
+    movimento = 0;
+    experiencia = 0;
+    vale_moedas = 0;
+    fatorial = 0;
+
     // Leitura da entrada
     scanf("%d %d", &distancia, &numero_posicoes);
     
